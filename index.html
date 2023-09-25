@@ -10,14 +10,14 @@
 
 <body>
 
-  <section>
-    <header class="toppage">
-      <h1>Laura Vollmer</h1>
+  <section class="toppage">
+    <header>
+      <h2>Laura Vollmer</h2>
       <nav>
         <ul>
-          <li>About Me</li>
-          <li>Work</li>
-          <li>Contact Me</li>
+          <li id="aboutme">About Me</li>
+          <li id="work">Work</li>
+          <li id="contactme">Contact Me</li>
         </ul>
       </nav>
     </header>
@@ -30,23 +30,36 @@
       free time, I like to make art, play with dog, and travel around the Midwest.</p>
   </section>
 
+  <!-- placeholder https://via.placeholder.com/200 taken from 06-Stu_HTML inclass assignment -->
   <section>
     <h1>Projects</h1>
+    <div class="projects">
+      <p><img src="https://via.placeholder.com/200" alt="placeholder1" /></p>
+      <p><img src="https://via.placeholder.com/200" alt="placeholder2" /></p>
+      <p><img src="https://via.placeholder.com/200" alt="placeholder3" /></p>
+      <p><img src="https://via.placeholder.com/200" alt="placeholder4" /></p>
+      <p><img src="https://via.placeholder.com/200" alt="placeholder5" /></p>
+    </div>
   </section>
 
   <section>
     <h1>Contact Me</h1>
-    <ul>
-      <li>Email</li>
-      <li>Phone</li>
-      <li>Github</li>
-      <li>Instagram</li>
-      <li>LinkedIn</li>
-    </ul>
+    <!-- code below referenced from 06-Stu_HTML and 08-Stu_Attributes inclass assignment -->
+    <nav class="contact">
+      <ul>
+        <li id="email">Email:<a href="malito:laura@gmail.com">laura@gmail.com</a></li>
+        <li id="phone">Phone:<a href="https://www.google.com">000-000-0000</a></li>
+        <li id="github">Github:<a href="https://www.github.com">Github</a></li>
+        <li id="instagram">Instagram:<a href="https://www.instagram.com">instagram</a></li>
+        <li id="linkedin">LinkedIn:<a href="https://linkedin.com">linkedin</a></li>
+      </ul>
+    </nav>
   </section>
 
 </body>
-<footer>
+
+<footer class='footer'>
+  Copyright&2023
 </footer>
 
 </html>

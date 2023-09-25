@@ -5,26 +5,40 @@
 
 body {
   background-color: lightblue;
-  margin: 10px;
+  margin: 20px;
 }
 
-header.toppage {
+section.toppage {
   background-color: darkblue;
   color: bisque;
+  font-weight: bold;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
 }
 
+/* code referenced from 16-Stu_HTML-display lesson */
 nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  display: inline-block;
+  list-style-type: none;
 }
 
 li {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+div.projects {
+  display: flex;
+  flex-direction: flex-start;
+  justify-content: space-around;
+}
+
+nav.contact {
+  display: flex;
+  flex-direction: row;
   flex-wrap: nowrap;
 }
