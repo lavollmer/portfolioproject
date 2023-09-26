@@ -1,6 +1,19 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  text-align: left;
+}
+
+div.name {
+  display: flex;
+  background-color: darkgreen;
+}
+
+p {
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 body {
@@ -8,20 +21,40 @@ body {
   margin: 20px;
 }
 
+/* Received code from AskBCS Learning Assistant (3 lines below) */
+/* changed code from AskBCS with other information */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 section.toppage {
-  background-color: darkblue;
+  background-color: darkblue color;
   color: bisque;
   font-weight: bold;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  flex-wrap: nowrap;
+  /* Received code from AskBCS Learning Assistant (2 lines below) */
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* code referenced from 16-Stu_HTML-display lesson */
-nav {
-  display: inline-block;
-  list-style-type: none;
+.nav-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Received code from AskBCS Learning Assistant (3 lines below) */
+nav ul {
+  display: flex;
+}
+
+/* Received code from AskBCS Learning Assistant (3 lines below) */
+div.nav li {
+  margin-right: 20px;
 }
 
 li {
@@ -39,6 +72,17 @@ div.projects {
 
 nav.contact {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  flex-direction: flex-start;
+  align-items: space-between;
+}
+
+div.projects1 {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: darkblue;
+  color: bisque;
+  text-align: center;
 }
