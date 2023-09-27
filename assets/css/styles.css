@@ -118,11 +118,31 @@ h1 {
 
 section.proj {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 div.projects1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+div.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+section.contactme {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin: 0px;
 }
