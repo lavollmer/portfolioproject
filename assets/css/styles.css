@@ -1,10 +1,18 @@
 * {
   font-family: 'Times New Roman', Times, serif;
+  color: #D1CDC3;
   font-size: 20px;
   margin: 0px;
   margin-top: 5px;
   padding: 0px;
-  background-color: white;
+}
+
+body {
+  background-image: url("../images/minneapolis.png");
+  background-size: cover;
+  background-position: center;
+  margin: 15px;
+  padding: 15px;
 }
 
 div.name {
@@ -20,12 +28,6 @@ p {
   flex-direction: column;
 }
 
-body {
-  margin: 20px;
-}
-
-/* Received code from AskBCS Learning Assistant (3 lines below) */
-/* changed code from AskBCS with other information */
 header {
   display: flex;
   flex-direction: row;
@@ -33,12 +35,11 @@ header {
   padding: 0px;
   margin: 0px;
   width: 100%;
-  background-color: #f48989;
+  background-color: #8B6A63
 }
 
 h2 {
-  background-color: #f48989;
-  padding: 0px;
+  background-color: #8B6A63 padding: 0px;
   margin: 0px;
 }
 
@@ -46,8 +47,8 @@ p {
   font-size: 20px;
   display: flex;
   align-items: center;
-  margin: 0px;
-  background-color: #f48989;
+  margin: 10px;
+  background-color: #8B6A63
 }
 
 div.name {
@@ -57,15 +58,14 @@ div.name {
   width: 100%;
   margin-left: 20px;
   padding: 20px;
-  background-color: #f48989;
+  background-color: #8B6A63
 }
 
 div.nav-area {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  background-color: #f48989;
-  margin: 0px;
+  background-color: #8B6A63 margin: 0px;
 }
 
 nav {
@@ -75,7 +75,7 @@ nav {
   width: 100%;
   height: 100%;
   margin: 0px;
-  background-color: #f48989;
+  background-color: #8B6A63
 }
 
 nav ul {
@@ -85,7 +85,7 @@ nav ul {
   align-items: center;
   width: 80%;
   margin: 0px;
-  background-color: #f48989;
+  background-color: #8B6A63
 }
 
 ul li {
@@ -96,7 +96,7 @@ ul li {
   justify-content: space-evenly;
   align-items: center;
   margin: 0px;
-  background-color: #f48989;
+  background-color: #8B6A63
 }
 
 section {
