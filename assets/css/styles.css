@@ -16,12 +16,6 @@ body {
   padding: 15px;
 }
 
-div.name {
-  display: flex;
-  margin: 0px;
-  padding: 0px;
-}
-
 p {
   margin-top: 0px;
   padding: 5px;
@@ -49,6 +43,10 @@ h1 {
   font-size: 20px;
 }
 
+h1.firstlast {
+  font-size: 30px;
+}
+
 p {
   font-size: 20px;
   display: flex;
@@ -57,13 +55,22 @@ p {
   background-color: #8B6A63
 }
 
+p.degrees {
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 0px;
+}
+
 div.name {
   font-size: 50px;
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  margin-left: 20px;
-  padding: 20px;
+  padding: 10px;
   background-color: #8B6A63
 }
 
@@ -100,7 +107,7 @@ ul li {
   font-size: 20px;
   font-weight: bold;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   margin: 0px;
@@ -124,6 +131,7 @@ h1 {
   align-items: center;
   width: 100%;
   margin: 5px;
+  font-size: 20px;
 }
 
 section.proj {
@@ -142,8 +150,10 @@ div.projects {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
   font-size: 10px;
 }
+
 
 section.contactme {
   display: flex;
@@ -173,6 +183,7 @@ div.footer {
   color: #D1CDC3;
 }
 
-ul.where-to-find-me {
-  font-size: 5px;
+section#connect.contactme {
+  margin: 10px;
+  padding: 10px;
 }
